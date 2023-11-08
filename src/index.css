@@ -1,3 +1,25 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --ct-color-bg-primary: #fff;
+  --ct-color-bg-secundary: #C8C8C8;
+  --ct-color-bg-tertiary: #3C9AF0;
+
+  --ct-color-font-primary: #fff;
+  --ct-color-font-secundary: #5E5E5E;
+  --ct-color-font-tertiary: #3C9AF0;
+  --ct-color-font-placeholder: #3C9AF0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
