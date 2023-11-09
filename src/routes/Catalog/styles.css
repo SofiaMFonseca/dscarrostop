@@ -1,0 +1,19 @@
+#dsct-catalog-section {
+    padding: 25px 0;
+}
+
+.dsct-catalog-main {
+    padding: 0 20px;
+}
+
+.dsct-titleH2 {
+    font-size: 20px;
+    color: var(--ct-color-font-secundary);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.dsct-catalog-cards-container {
+    display: grid;
+    grid-gap: 25px;
+}
