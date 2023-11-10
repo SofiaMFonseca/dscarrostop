@@ -1,12 +1,13 @@
-#dsct-catalog-section {
-    padding: 25px 0;
+#dsct-catalog-section-white {
+    padding: 25px 20px; 
 }
 
-.dsct-catalog-main {
-    padding: 0 20px;
+#dsct-catalog-section-gray {
+    padding: 25px 20px;
+    background-color: var(--ct-color-bg-secundary);
 }
 
-.dsct-titleH2 {
+.dsct-title-h2 {
     font-size: 20px;
     color: var(--ct-color-font-secundary);
     text-align: center;

@@ -1,4 +1,4 @@
-.dsct-carCard {
+.dsct-car-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,12 +6,13 @@
     border: 1px solid var(--ct-color-bg-tertiary);
 }
 
-.dsct-carCard img {
+.dsct-car-card img {
     width: 260px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
-.dsct-carCard h3 {
+.dsct-car-card h3 {
     font-size: 16px;
     color: var(--ct-color-font-secundary);
+    margin-bottom: 10px;
 }
