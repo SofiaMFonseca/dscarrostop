@@ -8,11 +8,22 @@
 
 .dsct-car-card img {
     width: 260px;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 .dsct-car-card h3 {
     font-size: 16px;
     color: var(--ct-color-font-secundary);
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .dsct-car-card h3 {
+        font-size: 20px;
+    }
+
+    .dsct-car-card img {
+        width: 391px;
+        margin: 10px 177px;
+    }    
 }

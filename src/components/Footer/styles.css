@@ -2,9 +2,15 @@ footer {
     height: 120px;
     background-color: var(--ct-color-bg-tertiary);
     display: flex;
+    align-items: center;
+}
+
+.dsct-footer {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 10px;
 }
 
 footer a,
@@ -13,6 +19,18 @@ p {
     color: var(--ct-color-font-primary);
 }
 
-.dsct-footer-link {
-    margin-bottom: 10px;
+@media (min-width: 768px) {
+    .dsct-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dsct-footer-a {
+        margin-left: 20px;
+    }
+
+    .dsct-footer-p {
+        margin-right: 20px;
+    }
 }

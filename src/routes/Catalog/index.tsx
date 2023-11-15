@@ -19,17 +19,19 @@ function Catalog() {
                         <CarCard />
                     </div>
                 </section>
-                <section id="dsct-catalog-section-gray" className='dsct-container'>
-                    <div className='dsct-title-h2'>
-                        <h2>O que estão dizendo</h2>
-                    </div>
-                    <div className='dsct-catalog-cards-container'>
-                        <CommentCard />
-                        <CommentCard />
-                        <CommentCard />
-                        <CommentCard />
-                        <CommentCard />
-                        <CommentCard />
+                <section id="dsct-catalog-section-gray">
+                    <div className='dsct-container'>
+                        <div className='dsct-title-h2'>
+                            <h2>O que estão dizendo</h2>
+                        </div>
+                        <div className='dsct-catalog-cards-container'>
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                        </div>
                     </div>
                 </section>
             </main>
