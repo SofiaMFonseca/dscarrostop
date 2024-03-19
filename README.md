@@ -1,5 +1,12 @@
 # Design Figma for the project [here](https://www.figma.com/file/SGgxfyEMVs2gr04URFB75E/Desafio-Componentes-React)
 
+## Correction criteria for this task:
+
+1) Component to represent the header 
+2) Component to represent the car card 
+3) Component to represent the comment card 
+4) Component to represent the footer
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
