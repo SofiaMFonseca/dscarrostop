@@ -7,6 +7,10 @@
 3) Component to represent the comment card 
 4) Component to represent the footer
 
+## Layout
+
+![Figma](https://github.com/SofiaMFonseca/assets/blob/main/dscarrostop/figma-task-react-components.png)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
